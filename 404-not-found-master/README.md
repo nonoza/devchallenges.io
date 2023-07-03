@@ -59,6 +59,6 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ## Contact
 
-- Website [your-website.com](https://{prettynkunene.co.za})
-- GitHub [@your-username](https://{github.com/nonoza})
+- Website [Pretty Kunene](https://{prettynkunene.co.za})
+- GitHub [@nonoza](https://{github.com/nonoza})
 
