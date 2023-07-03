@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://{[nonoza/devchallenges.io/tree/main/404-not-found-master)}">
       Solution
     </a>
     <span> | </span>
