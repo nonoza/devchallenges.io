@@ -1,6 +1,6 @@
 # D Challenges
 
-This repository contains [Frontend Mentor](https://www.frontendmentor.io/challenges) challenge projects that I completed.
+This repository contains [Dev Challenge](https://devchallenges.io/) challenge projects that I completed.
 
 
 
