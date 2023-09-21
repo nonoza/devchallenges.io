@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+                    montserrat: ["'Montserrat', sans-serif"],
+                },
+             width: {
+                    26 : ["100px"]
+             },
+             height: {
+                    26 : ["67px"]
+             },
+             colors: {
+                   "brand-grey": "#BDBDBD",
+                   "brand-green": "#4E5150",
+                   "brand-light-grey": "#E5E5E5",
+             },
+          }
+        }
+      }
+    </script>
+    <title>Devchallenges</title>
+
+  </head>
+  <body class="font-montserrat">
+   <section class="profile-section">
+    <div class="profile-pic">
+      <img src="profilePhoto.png" alt="profilePhoto" />
+    </div>
+    <div class="profile-copy">
+      <h1 class="text-2xl text-zinc-600">Rodney Cotton</h1>
+      <h2 class="text-sm">Helsinki, Finland</h2>
+    </div>
+    <div class="contact-section">
+      <div class="post w-26 h-26 bg-neutral-200 p-3 rounded-md ">
+        <h3 class="text-brand-green font-semibold">100</h3>
+        <h4 class="text-brand-grey text-sm font-semibold">Post</h4>
+      </div>
+      <div class="followers w-26 h-26 bg-neutral-200 p-3 rounded-md">
+        <h3 class="text-brand-green font-semibold">2,242</h3>
+        <h4 class="text-brand-grey text-sm font-semibold">Follower</h4>
+      </div>
+      <div class="following w-26 h-26 bg-neutral-200 p-3 rounded-md">
+        <h3 class="text-brand-green font-semibold">1,432</h3>
+        <h4 class="text-brand-grey text-sm font-semibold">Following</h4>
+      </div>
+    </div>
+   </section>
+   <section class="gallary-section grid">
+    <div class="photo-1  ">
+      <img src="photo1.png" alt="photo-1"/>
+    </div>
+    <div class="photo-2 ">
+      <img src="photo2.png" alt="photo-2"/>
+    </div>
+    <div class="photo-3">
+      <img src="photo3.png" alt="photo-3"/>
+    </div>
+    <div class="photo-4">
+      <img src="photo_4.png" alt="photo-4"/>
+    </div>
+    <div class="photo-5">
+      <img src="photo5.png" alt="photo-5"/>
+    </div>
+    <div class="photo-6">
+      <img src="photo6.png" alt="photo-6"/>
+    </div>
+   </section>
+  </body>
+</html>
