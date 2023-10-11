@@ -6,6 +6,10 @@ This repository contains [Dev Challenge](https://devchallenges.io/) challenge pr
 
 GitHub landing page: [https://github.com/nonoza/devchallenges.io](https://github.com/nonoza/devchallenges.io)
 
+Technologies used :
+- Tailwind CSS
+- HTML
+
 ## Projects
 
 | No. | Demo                                                                             | Repo |
