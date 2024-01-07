@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Responsive Web Developer Starter - devchallenges.io</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="any">
+</head>
+<body>
+  <header>
+    <img class="header-image-container" src="images/contact-form-icon.svg" alt="contact-form-icon">
+ </header>
+ <main>
+  <!-- Heading Section -->
+  <header class="header-wrapper">
+     <h1>Interested in our business pricing?</h1>
+     <p>Fill out the form to view details and we’ll contact you as soon as possible.</p>
+  </header>
+  
+  <!-- Form Section -->
+  <section class="form-wrapper">
+     <form>
+        <!-- Input Section -->
+        <div class="contact-wrapper-input">
+           <div class="select-company-size">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Ethan Johnson">
+           </div>
+           <div class="select-email">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="ethan@johnson.com">
+           </div>
+        </div>
+        
+        <!-- Select Section -->
+        <div class="select-wrapper">
+           <div class="select-company-size">
+              <label for="company-size">Company Size</label>
+              <select id="company-size">
+                 <option value="">Select a Company Size</option>
+                 <option value="500-1000 employees">500-1000 employees</option>
+                 <option value="5000-10000 employees">5000-10000 employees</option>
+              </select>
+           </div>
+           <div class="select-subject">
+              <label for="subject">Subject</label>
+              <select id="subject">
+                 <option value="">Select a Subject</option>
+                 <option value="Building Landing Pages">Building Landing Pages</option>
+                 <option value="Building Apps">Building Apps</option>
+              </select>
+           </div>
+        </div>
+        
+       <div class="textarea-wrapper">
+        <label for="message">Message</label>
+        <textarea id="message" placeholder="Enter your message"></textarea>
+       </div>
+       <small class="error-msg"></small>
+        
+        <!-- Button Section -->
+        <button type="submit" class="submit-button">Contact Sales</button>
+
+     </form>
+  </section>
+</main>
+
+    <footer>
+    <p>built by <a href="https://devchallenges.io/profile/dd913de5-e2fc-4c64-8bcb-eb7bb7437bde">Pretty Kunene</a></p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
