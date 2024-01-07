@@ -9,6 +9,8 @@ GitHub landing page: [https://github.com/nonoza/devchallenges.io](https://github
 Technologies used :
 - Tailwind CSS
 - HTML
+- Sass
+- Javascript Basic
 
 ## Projects
 
