@@ -18,3 +18,4 @@ Technologies used :
 | 2   | [My Gallery Master](https://nonoza.github.io/devchallenges.io/my-gallery-master/)         | [Link to GitHub repo](https://github.com/nonoza/devchallenges.io/tree/main/my-gallery-master/) |
 | 3   | [Business Blog Card](https://nonoza.github.io/devchallenges.io/Business%20Blog%20Card/)         | [Link to GitHub repo](https://github.com/nonoza/devchallenges.io/tree/main/Business%20Blog%20Card) |
 | 4  | [Testimonial Page](https://nonoza.github.io/devchallenges.io/testimonial-page/)         | [Link to GitHub repo](https://github.com/nonoza/devchallenges.io/tree/main/testimonial-page) |
+| 4  | [Contact Page](https://nonoza.github.io/devchallenges.io/contact-page/)         | [Link to GitHub repo](https://github.com/nonoza/devchallenges.io/tree/main/contact-page) |
