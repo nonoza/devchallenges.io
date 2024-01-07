@@ -1,0 +1,267 @@
+@import "variables.scss";
+body {
+  background: url("/images/bg-image.svg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  font-size: $body-size;
+
+  header {
+    .header-image-container {
+      padding: 1rem;
+    }
+  }
+
+  main {
+    .header-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      h1 {
+        margin: 0;
+        font-size: $mobile-heading-size;
+        line-height: 4.5rem;
+
+        @include media-breakpoint-up(sm) {
+          font-size: $heading-size;
+        }
+
+        @include media-breakpoint-up(md) {
+          width: 56%;
+        }
+
+        @include media-breakpoint-up(xl) {
+          width: 51%;
+        }
+        @include media-breakpoint-up(xxl) {
+          width: 31%;
+        }
+
+        text-align: center;
+        color: $white;
+      }
+
+      p {
+        text-align: center;
+        color: $white;
+
+        @include media-breakpoint-up(sm) {
+          width: 50%;
+        }
+        @include media-breakpoint-up(md) {
+          width: 36%;
+        }
+        @include media-breakpoint-up(lg) {
+          width: 33%;
+        }
+        @include media-breakpoint-up(xl) {
+          width: 26%;
+        }
+        @include media-breakpoint-up(xxl) {
+          width: 22%;
+        }
+      }
+    }
+    section {
+        background-color: rgb(240 248 255 / 24%);
+        max-width: 80%;
+        margin: auto;
+        padding: 1.5rem;
+        margin-bottom: 100px;
+        border-radius: 15px;
+
+        @include media-breakpoint-up(lg) {
+          width: 61%;
+        }
+
+        form {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+
+          .contact-wrapper-input {
+           display: flex;
+           flex-direction: column;
+
+           @include media-breakpoint-up(md) {
+            flex-direction: row;
+            gap: 30px;
+          }
+          }
+          .select-wrapper {
+            display: flex;
+            flex-direction: column;
+ 
+            @include media-breakpoint-up(md) {
+             flex-direction: row;
+             gap: 30px;
+           }
+          }
+
+          label {
+           font-size: $label-size;
+           color: $white;
+           margin-bottom: 10px;
+          }
+          
+          input {
+            width: 17rem;
+            padding: 1.5rem;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-family: $font-family;
+            font-size: $body-size;
+            margin-bottom: 23px;
+
+            @include media-breakpoint-up(sm) {
+              width: 30rem;
+            }
+
+            @include media-breakpoint-only-small-tablet() {
+              width: 38rem;
+            }
+
+            @include media-breakpoint-up(md) {
+              display: block;
+              width: 21.5rem;
+            }
+
+            @include media-breakpoint-up(lg) {
+              width: 17em;
+            }
+
+            @include media-breakpoint-up(xl) {
+              width: 23rem;
+            }
+          }
+
+          select {
+            width: 20rem;
+            padding: 1.5rem;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            font-family: $font-family;
+            font-size: $body-size;
+
+            @include media-breakpoint-up(sm) {
+              width: 33rem; 
+            }
+
+            @include media-breakpoint-only-small-tablet() {
+              width: 41rem;
+            }
+
+            @include media-breakpoint-up(md) {
+              width: 24.5rem;
+              display: block; 
+            }
+
+            @include media-breakpoint-up(lg) {
+              width: 20rem;
+            }
+
+            @include media-breakpoint-up(xl) {
+              width: 26rem;
+            }
+          }
+
+          .textarea-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+
+          textarea {
+            width: 17rem;
+            height: 10vh;
+            border: 0;
+            border-radius: 10px;
+            padding: 1.5rem;
+            font-weight: bold;
+            font-family: $font-family;
+            font-size: $body-size;
+            margin-bottom: 30px;
+
+            @include media-breakpoint-up(sm) {
+              width: 29rem; 
+            }
+
+            @include media-breakpoint-only-small-tablet() {
+              width: 38rem;
+            }
+
+            @include media-breakpoint-up(md) {
+              width: 48rem; 
+            }
+
+            @include media-breakpoint-up(lg) {
+              width: 39rem;
+            }
+
+            @include media-breakpoint-up(xl) {
+              width: 51rem;
+              height: 25vh;
+            }
+          }
+
+          .error-msg {
+            font-size: $body-size;
+            color: red;
+            margin-bottom: 12px;
+          }
+
+          button {
+            padding: 1.5rem;
+            width: 20rem;
+            color: #4036A9;
+            border: 0;
+            border-radius: 10px;
+            font-size: $body-size;
+            font-weight: bold;
+            cursor: pointer;
+            &:hover {
+              background: $light-purple;
+              color: $white;
+            }
+
+            @include media-breakpoint-up(sm) {
+              width: 32rem; 
+              padding: 1.5rem;
+            }
+
+            @include media-breakpoint-only-small-tablet() {
+              width: 41rem;
+            }
+
+            @include media-breakpoint-up(md) {
+              width: 51rem; 
+            }
+
+            @include media-breakpoint-up(xl) {
+              width: 54rem;
+            }
+          }
+   
+        }
+      
+    }
+  }
+
+  footer {
+    text-align: center;
+    color: $white;
+
+    a {
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
