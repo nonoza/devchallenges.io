@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{404 Not Found}</h1>
+<h1 align="center">Contact Page</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -47,13 +47,14 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
    - Working with "rem" on styling text. I still need to learn about that.
 - What have you learned/improved?
   - Mobile responsive is very important
+- Building websites with sass frameworks.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [HTML]
-- [CSS]
+- [SASS FRAMEWORK]
 
 
 
